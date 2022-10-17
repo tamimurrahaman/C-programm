@@ -17,7 +17,7 @@ int main()
     {
         if(a[i]==f)
         {
-        printf("%d Found this elemnet",f);
+        printf("%d Found %d number index ",f'i);
         return 0;
         }
 
