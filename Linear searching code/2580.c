@@ -4,7 +4,8 @@ int main()
     int a[100],i,n;
     printf("Enter the element:");
     scanf("%d",&n);
-
+    
+    printf("Elements are:");
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -17,7 +18,7 @@ int main()
     {
         if(a[i]==f)
         {
-        printf("%d Found %d number index ",f'i);
+        printf("Found this elemnet %d number index",i);
         return 0;
         }
 
